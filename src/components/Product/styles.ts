@@ -1,50 +1,43 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
+import { TagContainer } from '../Tag/styles'
 
 export const Card = styled.div`
   background-color: ${cores.rosa};
+  border-radius: 8px;
+  padding: 8px;
+  position: relative;
+
+  ${TagContainer} {
+    margin-right: 8px;
+  }
+`
+
+export const Botao = styled.button`
+  background-color: ${cores.rosaclaro};
+  border: none;
+  width: 100%;
+  color: ${cores.rosa};
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  cursor: pointer;
+  padding: 4px 0;
 `
 
 export const Titulo = styled.h3`
-  height: 19px;
-  width: 124px;
-  left: 179px;
-  top: 681px;
-  border-radius: nullpx;
-  font-family: Roboto;
+  font-weight: bold;
   font-size: 16px;
-  font-weight: 900;
-  line-height: 19px;
-  letter-spacing: 0em;
-  text-align: left;
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 8px;
   color: ${cores.rosaclaro};
 `
 
 export const Descricao = styled.p`
-  position: absolute;
-  width: 304px;
-  height: 88px;
-  left: 179px;
-  top: 708px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
+  display: block;
+  margin-top: 16px;
   color: ${cores.rosaclaro};
-`
-
-export const Button = styled.button`
-  height: 24px;
-  width: 304px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background-color: ${cores.rosaclaro};
-  color: ${cores.rosa};
 `

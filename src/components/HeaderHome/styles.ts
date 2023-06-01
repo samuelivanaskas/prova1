@@ -2,35 +2,22 @@ import styled from 'styled-components'
 import { cores } from '../../styles'
 
 export const HeaderBar = styled.header`
-  height: 384px;
-  width: 2032px;
-  left: 0px;
-  top: -24px;
-  border-radius: 0px;
-  backgroun-color: ${cores.rosaclaro};
+  background-color: ${cores.corHeader};
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
 `
 
 export const Text = styled.p`
-  height: 84px;
-  width: 540px;
-  left: 420px;
-  top: 230px;
-  border-radius: nullpx;
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 42px;
-  letter-spacing: 0em;
-  text-align: center;
+  align-itens: center;
+  padding: 32px;
+  margin-top: 32px;
+  display: block;
   color: ${cores.rosa};
 `
 
 export const Ilogo = styled.div`
-  position: absolute;
-  height: 58px;
-  width: 124px;
-  left: 640pxpx;
-  top: 40px;
-  border-radius: 0px;
+  align-itens: center
+  margin: 0 32px;
   background-color: ${cores.rosa};
 `

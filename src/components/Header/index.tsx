@@ -8,12 +8,12 @@ const Header = () => (
       <img src={Logo} alt="EFOOD" />
     </LogoHeader>
     <ul>
-      <LinkItemA>
-        <a href="#">Restaurantes</a>
-      </LinkItemA>
-      <LinkItemB>
-        <a href="#">0 produto(s) no carrinho</a>
-      </LinkItemB>
+      <li>
+        <LinkItemA>Restaurantes</LinkItemA>
+      </li>
+      <li>
+        <LinkItemB>0 produto(s) no carrinho</LinkItemB>
+      </li>
     </ul>
   </HeaderBar>
 )

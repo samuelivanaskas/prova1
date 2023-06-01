@@ -1,19 +1,20 @@
-import { Button, Card, Descricao, Titulo } from './styles'
+import Tag from '../Tag'
+import { Botao, Card, Descricao, Titulo } from './styles'
 
 type Props = {
   title: string
+  category: string
   description: string
   image: string
-  id: string
 }
 
-const Product = ({ title, description, image, id }: Props) => (
+export const Product = ({ title, category, description, image }: Props) => (
   <Card>
-    <img src={image} />
-    <div>{id}</div>
+    <img src={image} alt={title} />
     <Titulo>{title}</Titulo>
+    <Tag>{category}</Tag>
     <Descricao>{description}</Descricao>
-    <Button>Adicionar ao carrinho</Button>
+    <Botao>Adicionar ao carrinho</Botao>
   </Card>
 )
 

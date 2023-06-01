@@ -15,11 +15,13 @@ const Footer = () => (
         <img src={LogoInsta} alt="Logo Insta" />
         <img src={LogoTwitter} alt="Logo Twitter" />
       </RedesSociais>
-      <TextFooter>
-        A efood é uma plataforma para divulgação de estabelecimentos, a
-        responsabilidade pela entrega, qualidade dos produtos é toda do
-        estabelecimento contratado.
-      </TextFooter>
+      <div>
+        <TextFooter>
+          A efood é uma plataforma para divulgação de estabelecimentos, a
+          responsabilidade pela entrega, qualidade dos produtos é toda do
+          estabelecimento contratado.
+        </TextFooter>
+      </div>
     </div>
   </Container>
 )
