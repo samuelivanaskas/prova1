@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 const Rotas = () => (
   <Routes>
     <Route path="/Home" element={<Home />} />
-    <Route path="/Perfil" element={<Perfil />} />
+    <Route path="/" element={<Perfil />} />
   </Routes>
 )
 
